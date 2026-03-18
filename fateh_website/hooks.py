@@ -5,13 +5,12 @@ app_description = "Fateh ERP Marketing Website"
 app_email = "dev@fateherp.com"
 app_license = "MIT"
 
-# Website
-home_page = "fateh"
-
-website_route_rules = [
-    {"from_route": "/pricing", "to_route": "fateh"},
-    {"from_route": "/404", "to_route": "fateh"},
-]
+# Website — home_page removed since frontends are hosted separately on VPS
+# home_page = "fateh"
+# website_route_rules = [
+#     {"from_route": "/pricing", "to_route": "fateh"},
+#     {"from_route": "/404", "to_route": "fateh"},
+# ]
 
 # Scheduled Tasks
 scheduler_events = {
