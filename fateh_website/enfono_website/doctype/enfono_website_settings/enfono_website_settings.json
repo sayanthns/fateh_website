@@ -47,7 +47,13 @@
         "section_cms",
         "cms_data",
         "section_media",
-        "media_files"
+        "media_files",
+        "section_break_ga4",
+        "ga4_enabled",
+        "ga4_property_id",
+        "column_break_ga4",
+        "ga4_service_account_json",
+        "sync_ga4_btn"
     ],
     "fields": [
         {
@@ -274,6 +280,40 @@
             "fieldname": "media_files",
             "fieldtype": "JSON",
             "label": "Media Files"
+        },
+        {
+            "fieldname": "section_break_ga4",
+            "fieldtype": "Section Break",
+            "label": "Google Analytics (GA4)"
+        },
+        {
+            "fieldname": "ga4_enabled",
+            "fieldtype": "Check",
+            "label": "Enable GA4 Sync",
+            "default": "0"
+        },
+        {
+            "fieldname": "ga4_property_id",
+            "fieldtype": "Data",
+            "label": "GA4 Property ID",
+            "description": "Numeric property ID from GA4 Admin > Property Settings (e.g. 123456789)"
+        },
+        {
+            "fieldname": "column_break_ga4",
+            "fieldtype": "Column Break"
+        },
+        {
+            "fieldname": "ga4_service_account_json",
+            "fieldtype": "Password",
+            "label": "Service Account JSON Key",
+            "description": "Paste the full JSON content of the Google Cloud service account key file"
+        },
+        {
+            "fieldname": "sync_ga4_btn",
+            "fieldtype": "Button",
+            "label": "Sync GA4 Now",
+            "options": "sync_ga4_now",
+            "depends_on": "eval:doc.ga4_enabled"
         }
     ],
     "index_web_pages_for_search": 0,

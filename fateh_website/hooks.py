@@ -26,7 +26,8 @@ after_install = "fateh_website.install.after_install"
 # Scheduled Tasks
 scheduler_events = {
     "daily": [
-        "fateh_website.tasks.purge_trashed_leads"
+        "fateh_website.tasks.purge_trashed_leads",
+        "fateh_website.tasks.sync_ga4_analytics",
     ]
 }
 

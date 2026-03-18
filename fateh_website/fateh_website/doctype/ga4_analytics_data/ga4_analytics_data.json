@@ -1,0 +1,132 @@
+{
+  "actions": [],
+  "autoname": "format:{site}-{date}",
+  "creation": "2026-03-19 00:00:00.000000",
+  "doctype": "DocType",
+  "engine": "InnoDB",
+  "field_order": [
+    "site",
+    "date",
+    "column_break_1",
+    "ga4_property_id",
+    "section_break_metrics",
+    "sessions",
+    "page_views",
+    "users",
+    "column_break_2",
+    "bounce_rate",
+    "avg_session_duration",
+    "section_break_details",
+    "top_pages",
+    "column_break_3",
+    "top_sources"
+  ],
+  "fields": [
+    {
+      "fieldname": "site",
+      "fieldtype": "Select",
+      "label": "Site",
+      "options": "Fateh\nEnfono",
+      "reqd": 1,
+      "in_list_view": 1,
+      "in_standard_filter": 1
+    },
+    {
+      "fieldname": "date",
+      "fieldtype": "Date",
+      "label": "Date",
+      "reqd": 1,
+      "in_list_view": 1,
+      "in_standard_filter": 1
+    },
+    {
+      "fieldname": "column_break_1",
+      "fieldtype": "Column Break"
+    },
+    {
+      "fieldname": "ga4_property_id",
+      "fieldtype": "Data",
+      "label": "GA4 Property ID",
+      "read_only": 1
+    },
+    {
+      "fieldname": "section_break_metrics",
+      "fieldtype": "Section Break",
+      "label": "Metrics"
+    },
+    {
+      "fieldname": "sessions",
+      "fieldtype": "Int",
+      "label": "Sessions",
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "page_views",
+      "fieldtype": "Int",
+      "label": "Page Views",
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "users",
+      "fieldtype": "Int",
+      "label": "Users",
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "column_break_2",
+      "fieldtype": "Column Break"
+    },
+    {
+      "fieldname": "bounce_rate",
+      "fieldtype": "Float",
+      "label": "Bounce Rate (%)",
+      "precision": 2
+    },
+    {
+      "fieldname": "avg_session_duration",
+      "fieldtype": "Float",
+      "label": "Avg Session Duration (s)",
+      "precision": 1
+    },
+    {
+      "fieldname": "section_break_details",
+      "fieldtype": "Section Break",
+      "label": "Top Pages & Traffic Sources"
+    },
+    {
+      "fieldname": "top_pages",
+      "fieldtype": "Small Text",
+      "label": "Top Pages (JSON)"
+    },
+    {
+      "fieldname": "column_break_3",
+      "fieldtype": "Column Break"
+    },
+    {
+      "fieldname": "top_sources",
+      "fieldtype": "Small Text",
+      "label": "Traffic Sources (JSON)"
+    }
+  ],
+  "index_web_pages_for_search": 0,
+  "issingle": 0,
+  "links": [],
+  "modified": "2026-03-19 00:00:00.000000",
+  "modified_by": "Administrator",
+  "module": "Fateh Website",
+  "name": "GA4 Analytics Data",
+  "naming_rule": "Expression",
+  "owner": "Administrator",
+  "permissions": [
+    {
+      "create": 1,
+      "delete": 1,
+      "read": 1,
+      "role": "System Manager",
+      "write": 1
+    }
+  ],
+  "sort_field": "date",
+  "sort_order": "DESC",
+  "track_changes": 0
+}

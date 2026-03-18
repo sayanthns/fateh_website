@@ -14,3 +14,22 @@ def purge_trashed_leads():
         frappe.delete_doc("Website Lead", lead, ignore_permissions=True)
     if leads:
         frappe.db.commit()
+
+
+def sync_ga4_analytics():
+    """Pull yesterday's GA4 analytics for both sites."""
+    from fateh_website.ga4 import sync_site
+
+    sites = [
+        ("Fateh", "Fateh Website Settings"),
+        ("Enfono", "Enfono Website Settings"),
+    ]
+
+    for site_label, settings_doctype in sites:
+        try:
+            sync_site(site_label, settings_doctype)
+        except Exception:
+            frappe.log_error(
+                f"GA4 sync failed for {site_label}",
+                "GA4 Sync Error",
+            )
