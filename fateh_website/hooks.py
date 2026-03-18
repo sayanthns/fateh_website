@@ -5,6 +5,17 @@ app_description = "Fateh ERP Marketing Website"
 app_email = "dev@fateherp.com"
 app_license = "MIT"
 
+# Fixtures — auto-loaded on bench migrate
+fixtures = [
+    {"dt": "Website Testimonial"},
+    {"dt": "Website Pricing Plan"},
+    {"dt": "Website Pricing Comparison"},
+    {"dt": "Fateh Website Settings"},
+]
+
+# Install
+after_install = "fateh_website.install.after_install"
+
 # Website — home_page removed since frontends are hosted separately on VPS
 # home_page = "fateh"
 # website_route_rules = [
