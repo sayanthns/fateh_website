@@ -1,0 +1,302 @@
+{
+    "actions": [],
+    "creation": "2026-03-17 00:00:00",
+    "doctype": "DocType",
+    "engine": "InnoDB",
+    "field_order": [
+        "section_contact",
+        "whatsapp",
+        "phone",
+        "email",
+        "column_break_contact",
+        "calendly_url",
+        "section_hero",
+        "hero_heading",
+        "hero_subtext",
+        "hero_cta_primary",
+        "column_break_hero",
+        "hero_cta_secondary",
+        "hero_booking_url",
+        "section_services_hero",
+        "services_heading",
+        "services_subtext",
+        "column_break_services",
+        "services_cta_primary",
+        "services_cta_url",
+        "section_ai_cta",
+        "ai_cta_heading",
+        "ai_cta_subtext",
+        "ai_cta_btn_primary_txt",
+        "ai_cta_btn_primary_url",
+        "column_break_ai_cta",
+        "ai_cta_btn_secondary_txt",
+        "ai_cta_btn_secondary_url",
+        "section_stats",
+        "stats",
+        "section_about",
+        "about_heading",
+        "about_subtext",
+        "about_stats",
+        "section_work_categories",
+        "our_work_categories",
+        "section_chatbot",
+        "chatbot_provider",
+        "chatbot_api_key",
+        "column_break_chatbot",
+        "chatbot_training_data",
+        "section_cms",
+        "cms_data",
+        "section_media",
+        "media_files"
+    ],
+    "fields": [
+        {
+            "fieldname": "section_contact",
+            "fieldtype": "Section Break",
+            "label": "Contact Information"
+        },
+        {
+            "fieldname": "whatsapp",
+            "fieldtype": "Data",
+            "label": "WhatsApp Number"
+        },
+        {
+            "fieldname": "phone",
+            "fieldtype": "Data",
+            "label": "Phone Number"
+        },
+        {
+            "fieldname": "email",
+            "fieldtype": "Data",
+            "label": "Contact Email",
+            "options": "Email"
+        },
+        {
+            "fieldname": "column_break_contact",
+            "fieldtype": "Column Break"
+        },
+        {
+            "fieldname": "calendly_url",
+            "fieldtype": "Data",
+            "label": "Calendly / Booking URL"
+        },
+        {
+            "fieldname": "section_hero",
+            "fieldtype": "Section Break",
+            "label": "Homepage Hero Section"
+        },
+        {
+            "fieldname": "hero_heading",
+            "fieldtype": "Data",
+            "label": "Hero Heading"
+        },
+        {
+            "fieldname": "hero_subtext",
+            "fieldtype": "Small Text",
+            "label": "Hero Subtext"
+        },
+        {
+            "fieldname": "hero_cta_primary",
+            "fieldtype": "Data",
+            "label": "Primary CTA Text"
+        },
+        {
+            "fieldname": "column_break_hero",
+            "fieldtype": "Column Break"
+        },
+        {
+            "fieldname": "hero_cta_secondary",
+            "fieldtype": "Data",
+            "label": "Secondary CTA Text"
+        },
+        {
+            "fieldname": "hero_booking_url",
+            "fieldtype": "Data",
+            "label": "Booking URL"
+        },
+        {
+            "fieldname": "section_services_hero",
+            "fieldtype": "Section Break",
+            "label": "Services Page Hero"
+        },
+        {
+            "fieldname": "services_heading",
+            "fieldtype": "Data",
+            "label": "Services Heading"
+        },
+        {
+            "fieldname": "services_subtext",
+            "fieldtype": "Small Text",
+            "label": "Services Subtext"
+        },
+        {
+            "fieldname": "column_break_services",
+            "fieldtype": "Column Break"
+        },
+        {
+            "fieldname": "services_cta_primary",
+            "fieldtype": "Data",
+            "label": "Services CTA Text"
+        },
+        {
+            "fieldname": "services_cta_url",
+            "fieldtype": "Data",
+            "label": "Services CTA URL"
+        },
+        {
+            "fieldname": "section_ai_cta",
+            "fieldtype": "Section Break",
+            "label": "AI CTA Section"
+        },
+        {
+            "fieldname": "ai_cta_heading",
+            "fieldtype": "Data",
+            "label": "AI CTA Heading"
+        },
+        {
+            "fieldname": "ai_cta_subtext",
+            "fieldtype": "Small Text",
+            "label": "AI CTA Subtext"
+        },
+        {
+            "fieldname": "ai_cta_btn_primary_txt",
+            "fieldtype": "Data",
+            "label": "Primary Button Text"
+        },
+        {
+            "fieldname": "ai_cta_btn_primary_url",
+            "fieldtype": "Data",
+            "label": "Primary Button URL"
+        },
+        {
+            "fieldname": "column_break_ai_cta",
+            "fieldtype": "Column Break"
+        },
+        {
+            "fieldname": "ai_cta_btn_secondary_txt",
+            "fieldtype": "Data",
+            "label": "Secondary Button Text"
+        },
+        {
+            "fieldname": "ai_cta_btn_secondary_url",
+            "fieldtype": "Data",
+            "label": "Secondary Button URL"
+        },
+        {
+            "fieldname": "section_stats",
+            "fieldtype": "Section Break",
+            "label": "Homepage Stats"
+        },
+        {
+            "fieldname": "stats",
+            "fieldtype": "Table",
+            "label": "Stats",
+            "options": "Enfono Stat Item"
+        },
+        {
+            "fieldname": "section_about",
+            "fieldtype": "Section Break",
+            "label": "About - Who We Are"
+        },
+        {
+            "fieldname": "about_heading",
+            "fieldtype": "Data",
+            "label": "About Heading"
+        },
+        {
+            "fieldname": "about_subtext",
+            "fieldtype": "Small Text",
+            "label": "About Subtext"
+        },
+        {
+            "fieldname": "about_stats",
+            "fieldtype": "Table",
+            "label": "About Stats",
+            "options": "Enfono Stat Item"
+        },
+        {
+            "fieldname": "section_work_categories",
+            "fieldtype": "Section Break",
+            "label": "Our Work Categories"
+        },
+        {
+            "fieldname": "our_work_categories",
+            "fieldtype": "Table",
+            "label": "Categories",
+            "options": "Enfono Work Category"
+        },
+        {
+            "fieldname": "section_chatbot",
+            "fieldtype": "Section Break",
+            "label": "AI Chatbot Settings"
+        },
+        {
+            "fieldname": "chatbot_provider",
+            "fieldtype": "Select",
+            "label": "Chatbot Provider",
+            "options": "\nopenai\nanthropic",
+            "default": "openai"
+        },
+        {
+            "fieldname": "chatbot_api_key",
+            "fieldtype": "Password",
+            "label": "Chatbot API Key"
+        },
+        {
+            "fieldname": "column_break_chatbot",
+            "fieldtype": "Column Break"
+        },
+        {
+            "fieldname": "chatbot_training_data",
+            "fieldtype": "Long Text",
+            "label": "Chatbot Training Data / System Prompt"
+        },
+        {
+            "fieldname": "section_cms",
+            "fieldtype": "Section Break",
+            "label": "Legacy CMS Data (JSON)",
+            "collapsible": 1,
+            "hidden": 1
+        },
+        {
+            "fieldname": "cms_data",
+            "fieldtype": "JSON",
+            "label": "CMS Data"
+        },
+        {
+            "fieldname": "section_media",
+            "fieldtype": "Section Break",
+            "label": "Legacy Media Files (JSON)",
+            "collapsible": 1,
+            "hidden": 1
+        },
+        {
+            "fieldname": "media_files",
+            "fieldtype": "JSON",
+            "label": "Media Files"
+        }
+    ],
+    "index_web_pages_for_search": 0,
+    "issingle": 1,
+    "links": [],
+    "modified": "2026-03-18 00:00:00",
+    "modified_by": "Administrator",
+    "module": "Enfono Website",
+    "name": "Enfono Website Settings",
+    "owner": "Administrator",
+    "permissions": [
+        {
+            "create": 1,
+            "delete": 1,
+            "email": 1,
+            "print": 1,
+            "read": 1,
+            "role": "System Manager",
+            "share": 1,
+            "write": 1
+        }
+    ],
+    "sort_field": "creation",
+    "sort_order": "DESC",
+    "track_changes": 1
+}

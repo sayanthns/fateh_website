@@ -1,0 +1,139 @@
+{
+    "actions": [],
+    "autoname": "format:ENF-LEAD-{####}",
+    "creation": "2026-03-17 00:00:00",
+    "doctype": "DocType",
+    "engine": "InnoDB",
+    "field_order": [
+        "lead_name",
+        "email",
+        "phone",
+        "company",
+        "column_break_1",
+        "service",
+        "country",
+        "source",
+        "status",
+        "section_break_message",
+        "message",
+        "section_break_meta",
+        "lead_type",
+        "created_date"
+    ],
+    "fields": [
+        {
+            "fieldname": "lead_name",
+            "fieldtype": "Data",
+            "label": "Full Name",
+            "reqd": 1,
+            "in_list_view": 1,
+            "in_standard_filter": 1
+        },
+        {
+            "fieldname": "email",
+            "fieldtype": "Data",
+            "options": "Email",
+            "label": "Email",
+            "in_list_view": 1
+        },
+        {
+            "fieldname": "phone",
+            "fieldtype": "Data",
+            "label": "Phone",
+            "in_list_view": 1
+        },
+        {
+            "fieldname": "company",
+            "fieldtype": "Data",
+            "label": "Company"
+        },
+        {
+            "fieldname": "column_break_1",
+            "fieldtype": "Column Break"
+        },
+        {
+            "fieldname": "service",
+            "fieldtype": "Select",
+            "label": "Interested Service",
+            "options": "\nERPNext\nCustom\nConsulting\nSupport\nAI\nOther",
+            "in_list_view": 1,
+            "in_standard_filter": 1
+        },
+        {
+            "fieldname": "country",
+            "fieldtype": "Data",
+            "label": "Region / Country",
+            "default": "Saudi Arabia"
+        },
+        {
+            "fieldname": "source",
+            "fieldtype": "Select",
+            "label": "Source",
+            "options": "\nContact Form\nChatbot\nWebsite\nReferral\nOther",
+            "default": "Contact Form",
+            "in_standard_filter": 1
+        },
+        {
+            "fieldname": "status",
+            "fieldtype": "Select",
+            "label": "Status",
+            "options": "New\nContacted\nQualified\nProposal Sent\nConverted\nLost",
+            "default": "New",
+            "in_list_view": 1,
+            "in_standard_filter": 1
+        },
+        {
+            "fieldname": "section_break_message",
+            "fieldtype": "Section Break",
+            "label": "Message"
+        },
+        {
+            "fieldname": "message",
+            "fieldtype": "Text",
+            "label": "Message"
+        },
+        {
+            "fieldname": "section_break_meta",
+            "fieldtype": "Section Break",
+            "label": "Metadata"
+        },
+        {
+            "fieldname": "lead_type",
+            "fieldtype": "Data",
+            "label": "Lead Type",
+            "read_only": 1
+        },
+        {
+            "fieldname": "created_date",
+            "fieldtype": "Data",
+            "label": "Submission Date",
+            "read_only": 1
+        }
+    ],
+    "index_web_pages_for_search": 0,
+    "links": [],
+    "modified": "2026-03-17 00:00:00",
+    "modified_by": "Administrator",
+    "module": "Enfono Website",
+    "name": "Enfono Lead",
+    "naming_rule": "Expression",
+    "owner": "Administrator",
+    "permissions": [
+        {
+            "create": 1,
+            "delete": 1,
+            "email": 1,
+            "export": 1,
+            "print": 1,
+            "read": 1,
+            "report": 1,
+            "role": "System Manager",
+            "share": 1,
+            "write": 1
+        }
+    ],
+    "sort_field": "creation",
+    "sort_order": "DESC",
+    "title_field": "lead_name",
+    "track_changes": 1
+}

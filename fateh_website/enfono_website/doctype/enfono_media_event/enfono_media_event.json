@@ -1,0 +1,90 @@
+{
+    "actions": [],
+    "autoname": "format:ENF-EVT-{####}",
+    "creation": "2026-03-17 00:00:00",
+    "doctype": "DocType",
+    "engine": "InnoDB",
+    "field_order": [
+        "title",
+        "event_date",
+        "description",
+        "image",
+        "section_tags",
+        "tags",
+        "section_buttons",
+        "buttons"
+    ],
+    "fields": [
+        {
+            "fieldname": "title",
+            "fieldtype": "Data",
+            "label": "Title",
+            "reqd": 1,
+            "in_list_view": 1
+        },
+        {
+            "fieldname": "event_date",
+            "fieldtype": "Date",
+            "label": "Event Date",
+            "in_list_view": 1
+        },
+        {
+            "fieldname": "description",
+            "fieldtype": "Small Text",
+            "label": "Description"
+        },
+        {
+            "fieldname": "image",
+            "fieldtype": "Attach Image",
+            "label": "Image"
+        },
+        {
+            "fieldname": "section_tags",
+            "fieldtype": "Section Break",
+            "label": "Tags"
+        },
+        {
+            "fieldname": "tags",
+            "fieldtype": "Table",
+            "label": "Tags",
+            "options": "Enfono Media Tag"
+        },
+        {
+            "fieldname": "section_buttons",
+            "fieldtype": "Section Break",
+            "label": "Buttons"
+        },
+        {
+            "fieldname": "buttons",
+            "fieldtype": "Table",
+            "label": "Buttons",
+            "options": "Enfono Media Button"
+        }
+    ],
+    "index_web_pages_for_search": 0,
+    "links": [],
+    "modified": "2026-03-17 00:00:00",
+    "modified_by": "Administrator",
+    "module": "Enfono Website",
+    "name": "Enfono Media Event",
+    "naming_rule": "Expression",
+    "owner": "Administrator",
+    "permissions": [
+        {
+            "create": 1,
+            "delete": 1,
+            "email": 1,
+            "export": 1,
+            "print": 1,
+            "read": 1,
+            "report": 1,
+            "role": "System Manager",
+            "share": 1,
+            "write": 1
+        }
+    ],
+    "sort_field": "event_date",
+    "sort_order": "DESC",
+    "title_field": "title",
+    "track_changes": 1
+}

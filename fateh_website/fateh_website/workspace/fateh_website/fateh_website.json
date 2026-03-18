@@ -1,0 +1,171 @@
+{
+ "charts": [
+  {
+   "chart_name": "Website Leads",
+   "label": "Website Leads"
+  }
+ ],
+ "content": "[{\"id\":\"nc-total-leads\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Leads\",\"col\":4}},{\"id\":\"nc-new-leads\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"New Leads\",\"col\":4}},{\"id\":\"nc-contacted\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Contacted Leads\",\"col\":4}},{\"id\":\"nc-converted\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Converted Leads\",\"col\":4}},{\"id\":\"nc-views\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Page Views\",\"col\":4}},{\"id\":\"chart-leads\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Website Leads\",\"col\":12}},{\"id\":\"heading-leads\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Lead Management</b></span>\",\"col\":12}},{\"id\":\"shortcut-leads\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"All Leads\",\"col\":4}},{\"id\":\"shortcut-new-leads\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New Leads\",\"col\":4}},{\"id\":\"shortcut-contacted\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Contacted Leads\",\"col\":4}},{\"id\":\"heading-content\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Website Content</b></span>\",\"col\":12}},{\"id\":\"shortcut-testimonials\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Testimonials\",\"col\":4}},{\"id\":\"shortcut-pricing\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Pricing Plans\",\"col\":4}},{\"id\":\"shortcut-comparison\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Pricing Comparison\",\"col\":4}},{\"id\":\"heading-analytics\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Analytics & Settings</b></span>\",\"col\":12}},{\"id\":\"shortcut-analytics\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Website Analytics\",\"col\":4}},{\"id\":\"shortcut-settings\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Website Settings\",\"col\":4}}]",
+ "number_cards": [
+  {
+   "label": "Total Leads",
+   "number_card_name": "Total Leads"
+  },
+  {
+   "label": "New Leads",
+   "number_card_name": "New Leads"
+  },
+  {
+   "label": "Contacted Leads",
+   "number_card_name": "Contacted Leads"
+  },
+  {
+   "label": "Converted Leads",
+   "number_card_name": "Converted Leads"
+  },
+  {
+   "label": "Total Page Views",
+   "number_card_name": "Total Page Views"
+  }
+ ],
+ "creation": "2026-03-17 06:00:00.000000",
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "website",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Fateh Website",
+ "links": [
+  {
+   "description": "Manage incoming leads from the website",
+   "icon": "inbox",
+   "label": "Website Lead",
+   "link_count": 0,
+   "link_to": "Website Lead",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "description": "Client testimonials displayed on the website",
+   "icon": "star",
+   "label": "Website Testimonial",
+   "link_count": 0,
+   "link_to": "Website Testimonial",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "description": "Subscription pricing plans",
+   "icon": "credit-card",
+   "label": "Website Pricing Plan",
+   "link_count": 0,
+   "link_to": "Website Pricing Plan",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "description": "Feature comparison across pricing tiers",
+   "icon": "list",
+   "label": "Website Pricing Comparison",
+   "link_count": 0,
+   "link_to": "Website Pricing Comparison",
+   "link_type": "DocType",
+   "type": "Link"
+  },
+  {
+   "description": "Page visit tracking and UTM analytics",
+   "icon": "bar-chart",
+   "label": "Website Analytics",
+   "link_count": 0,
+   "link_to": "Website Analytics",
+   "link_type": "DocType",
+   "type": "Link"
+  },
+  {
+   "description": "Calendly URL and website configuration",
+   "icon": "setting",
+   "label": "Fateh Website Settings",
+   "link_count": 0,
+   "link_to": "Fateh Website Settings",
+   "link_type": "DocType",
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-03-17 06:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Fateh Website",
+ "name": "Fateh Website",
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "restrict_to_domain": "",
+ "roles": [],
+ "sequence_id": 30.0,
+ "shortcuts": [
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "label": "All Leads",
+   "link_to": "Website Lead",
+   "stats_filter": "",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "label": "New Leads",
+   "link_to": "Website Lead",
+   "stats_filter": "{\"status\":\"New\"}",
+   "type": "DocType"
+  },
+  {
+   "color": "Orange",
+   "doc_view": "List",
+   "label": "Contacted Leads",
+   "link_to": "Website Lead",
+   "stats_filter": "{\"status\":\"Contacted\"}",
+   "type": "DocType"
+  },
+  {
+   "color": "Yellow",
+   "doc_view": "List",
+   "label": "Testimonials",
+   "link_to": "Website Testimonial",
+   "type": "DocType"
+  },
+  {
+   "color": "Cyan",
+   "doc_view": "List",
+   "label": "Pricing Plans",
+   "link_to": "Website Pricing Plan",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Pricing Comparison",
+   "link_to": "Website Pricing Comparison",
+   "type": "DocType"
+  },
+  {
+   "color": "Purple",
+   "doc_view": "List",
+   "label": "Website Analytics",
+   "link_to": "Website Analytics",
+   "type": "DocType"
+  },
+  {
+   "color": "Red",
+   "doc_view": "",
+   "label": "Website Settings",
+   "link_to": "Fateh Website Settings",
+   "type": "DocType"
+  }
+ ],
+ "title": "Fateh Website"
+}

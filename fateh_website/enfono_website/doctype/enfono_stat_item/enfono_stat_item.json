@@ -1,0 +1,44 @@
+{
+    "actions": [],
+    "creation": "2026-03-17 00:00:00",
+    "doctype": "DocType",
+    "engine": "InnoDB",
+    "field_order": [
+        "label",
+        "stat_value",
+        "suffix"
+    ],
+    "fields": [
+        {
+            "fieldname": "label",
+            "fieldtype": "Data",
+            "label": "Label",
+            "reqd": 1,
+            "in_list_view": 1
+        },
+        {
+            "fieldname": "stat_value",
+            "fieldtype": "Data",
+            "label": "Stat Value",
+            "reqd": 1,
+            "in_list_view": 1
+        },
+        {
+            "fieldname": "suffix",
+            "fieldtype": "Data",
+            "label": "Suffix"
+        }
+    ],
+    "index_web_pages_for_search": 0,
+    "istable": 1,
+    "links": [],
+    "modified": "2026-03-17 00:00:00",
+    "modified_by": "Administrator",
+    "module": "Enfono Website",
+    "name": "Enfono Stat Item",
+    "owner": "Administrator",
+    "permissions": [],
+    "sort_field": "creation",
+    "sort_order": "DESC",
+    "track_changes": 1
+}

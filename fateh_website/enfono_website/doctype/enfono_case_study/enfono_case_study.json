@@ -1,0 +1,150 @@
+{
+    "actions": [],
+    "autoname": "format:ENF-CS-{####}",
+    "creation": "2026-03-17 00:00:00",
+    "doctype": "DocType",
+    "engine": "InnoDB",
+    "field_order": [
+        "title",
+        "category",
+        "country",
+        "flag",
+        "subtitle",
+        "column_break_1",
+        "outcome",
+        "metric",
+        "image",
+        "logo",
+        "url",
+        "icon",
+        "duration",
+        "users",
+        "section_bullets",
+        "bullets",
+        "section_modules",
+        "modules"
+    ],
+    "fields": [
+        {
+            "fieldname": "title",
+            "fieldtype": "Data",
+            "label": "Title",
+            "reqd": 1,
+            "in_list_view": 1
+        },
+        {
+            "fieldname": "category",
+            "fieldtype": "Select",
+            "label": "Category",
+            "in_list_view": 1,
+            "in_standard_filter": 1
+        },
+        {
+            "fieldname": "country",
+            "fieldtype": "Data",
+            "label": "Country"
+        },
+        {
+            "fieldname": "flag",
+            "fieldtype": "Data",
+            "label": "Flag"
+        },
+        {
+            "fieldname": "subtitle",
+            "fieldtype": "Small Text",
+            "label": "Subtitle"
+        },
+        {
+            "fieldname": "column_break_1",
+            "fieldtype": "Column Break"
+        },
+        {
+            "fieldname": "outcome",
+            "fieldtype": "Small Text",
+            "label": "Outcome"
+        },
+        {
+            "fieldname": "metric",
+            "fieldtype": "Data",
+            "label": "Metric"
+        },
+        {
+            "fieldname": "image",
+            "fieldtype": "Attach Image",
+            "label": "Image"
+        },
+        {
+            "fieldname": "logo",
+            "fieldtype": "Attach Image",
+            "label": "Logo"
+        },
+        {
+            "fieldname": "url",
+            "fieldtype": "Data",
+            "label": "URL"
+        },
+        {
+            "fieldname": "icon",
+            "fieldtype": "Data",
+            "label": "Icon"
+        },
+        {
+            "fieldname": "duration",
+            "fieldtype": "Data",
+            "label": "Duration"
+        },
+        {
+            "fieldname": "users",
+            "fieldtype": "Data",
+            "label": "Users"
+        },
+        {
+            "fieldname": "section_bullets",
+            "fieldtype": "Section Break",
+            "label": "Bullets"
+        },
+        {
+            "fieldname": "bullets",
+            "fieldtype": "Table",
+            "label": "Bullets",
+            "options": "Enfono Text Item"
+        },
+        {
+            "fieldname": "section_modules",
+            "fieldtype": "Section Break",
+            "label": "Modules"
+        },
+        {
+            "fieldname": "modules",
+            "fieldtype": "Table",
+            "label": "Modules",
+            "options": "Enfono Text Item"
+        }
+    ],
+    "index_web_pages_for_search": 0,
+    "links": [],
+    "modified": "2026-03-17 00:00:00",
+    "modified_by": "Administrator",
+    "module": "Enfono Website",
+    "name": "Enfono Case Study",
+    "naming_rule": "Expression",
+    "owner": "Administrator",
+    "permissions": [
+        {
+            "create": 1,
+            "delete": 1,
+            "email": 1,
+            "export": 1,
+            "print": 1,
+            "read": 1,
+            "report": 1,
+            "role": "System Manager",
+            "share": 1,
+            "write": 1
+        }
+    ],
+    "sort_field": "creation",
+    "sort_order": "DESC",
+    "title_field": "title",
+    "track_changes": 1
+}

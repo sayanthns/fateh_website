@@ -1,0 +1,240 @@
+{
+    "charts": [],
+    "content": "[{\"id\":\"heading\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Enfono Website</b></span>\",\"col\":12}},{\"id\":\"shortcuts\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"All Enfono Leads\",\"col\":4}},{\"id\":\"shortcuts2\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New Enfono Leads\",\"col\":4}},{\"id\":\"shortcuts3\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Enfono Settings\",\"col\":4}},{\"id\":\"shortcuts4\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Blog Posts\",\"col\":4}},{\"id\":\"shortcuts5\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Case Studies\",\"col\":4}},{\"id\":\"shortcuts6\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Brands\",\"col\":4}},{\"id\":\"shortcuts7\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Careers\",\"col\":4}},{\"id\":\"shortcuts8\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Testimonials\",\"col\":4}},{\"id\":\"shortcuts9\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Team Members\",\"col\":4}},{\"id\":\"shortcuts10\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Offices\",\"col\":4}},{\"id\":\"shortcuts11\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Media Events\",\"col\":4}},{\"id\":\"shortcuts12\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Client Logos\",\"col\":4}},{\"id\":\"shortcuts13\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Journey Milestones\",\"col\":4}}]",
+    "creation": "2026-03-17 00:00:00",
+    "docstatus": 0,
+    "doctype": "Workspace",
+    "for_user": "",
+    "hide_custom": 0,
+    "icon": "website",
+    "idx": 0,
+    "is_hidden": 0,
+    "label": "Enfono Website",
+    "links": [
+        {
+            "hidden": 0,
+            "is_query_report": 0,
+            "label": "Enfono Lead",
+            "link_count": 0,
+            "link_to": "Enfono Lead",
+            "link_type": "DocType",
+            "onboard": 1,
+            "type": "Link"
+        },
+        {
+            "hidden": 0,
+            "is_query_report": 0,
+            "label": "Enfono Website Settings",
+            "link_count": 0,
+            "link_to": "Enfono Website Settings",
+            "link_type": "DocType",
+            "onboard": 1,
+            "type": "Link"
+        },
+        {
+            "hidden": 0,
+            "is_query_report": 0,
+            "label": "Enfono Blog Post",
+            "link_count": 0,
+            "link_to": "Enfono Blog Post",
+            "link_type": "DocType",
+            "onboard": 0,
+            "type": "Link"
+        },
+        {
+            "hidden": 0,
+            "is_query_report": 0,
+            "label": "Enfono Case Study",
+            "link_count": 0,
+            "link_to": "Enfono Case Study",
+            "link_type": "DocType",
+            "onboard": 0,
+            "type": "Link"
+        },
+        {
+            "hidden": 0,
+            "is_query_report": 0,
+            "label": "Enfono Brand",
+            "link_count": 0,
+            "link_to": "Enfono Brand",
+            "link_type": "DocType",
+            "onboard": 0,
+            "type": "Link"
+        },
+        {
+            "hidden": 0,
+            "is_query_report": 0,
+            "label": "Enfono Career",
+            "link_count": 0,
+            "link_to": "Enfono Career",
+            "link_type": "DocType",
+            "onboard": 0,
+            "type": "Link"
+        },
+        {
+            "hidden": 0,
+            "is_query_report": 0,
+            "label": "Enfono Testimonial",
+            "link_count": 0,
+            "link_to": "Enfono Testimonial",
+            "link_type": "DocType",
+            "onboard": 0,
+            "type": "Link"
+        },
+        {
+            "hidden": 0,
+            "is_query_report": 0,
+            "label": "Enfono Team Member",
+            "link_count": 0,
+            "link_to": "Enfono Team Member",
+            "link_type": "DocType",
+            "onboard": 0,
+            "type": "Link"
+        },
+        {
+            "hidden": 0,
+            "is_query_report": 0,
+            "label": "Enfono Office",
+            "link_count": 0,
+            "link_to": "Enfono Office",
+            "link_type": "DocType",
+            "onboard": 0,
+            "type": "Link"
+        },
+        {
+            "hidden": 0,
+            "is_query_report": 0,
+            "label": "Enfono Media Event",
+            "link_count": 0,
+            "link_to": "Enfono Media Event",
+            "link_type": "DocType",
+            "onboard": 0,
+            "type": "Link"
+        },
+        {
+            "hidden": 0,
+            "is_query_report": 0,
+            "label": "Enfono Client Logo",
+            "link_count": 0,
+            "link_to": "Enfono Client Logo",
+            "link_type": "DocType",
+            "onboard": 0,
+            "type": "Link"
+        },
+        {
+            "hidden": 0,
+            "is_query_report": 0,
+            "label": "Enfono Journey Milestone",
+            "link_count": 0,
+            "link_to": "Enfono Journey Milestone",
+            "link_type": "DocType",
+            "onboard": 0,
+            "type": "Link"
+        }
+    ],
+    "modified": "2026-03-18 00:00:00",
+    "modified_by": "Administrator",
+    "module": "Enfono Website",
+    "name": "Enfono Website",
+    "owner": "Administrator",
+    "parent_page": "",
+    "public": 1,
+    "restrict_to_domain": "",
+    "roles": [],
+    "sequence_id": 20,
+    "shortcuts": [
+        {
+            "color": "Blue",
+            "doc_view": "List",
+            "label": "All Enfono Leads",
+            "link_to": "Enfono Lead",
+            "type": "DocType"
+        },
+        {
+            "color": "Green",
+            "doc_view": "List",
+            "filters_json": "[[\"Enfono Lead\",\"status\",\"=\",\"New\"]]",
+            "label": "New Enfono Leads",
+            "link_to": "Enfono Lead",
+            "type": "DocType"
+        },
+        {
+            "color": "Orange",
+            "doc_view": "",
+            "label": "Enfono Settings",
+            "link_to": "Enfono Website Settings",
+            "type": "DocType"
+        },
+        {
+            "color": "Cyan",
+            "doc_view": "List",
+            "label": "Blog Posts",
+            "link_to": "Enfono Blog Post",
+            "type": "DocType"
+        },
+        {
+            "color": "Purple",
+            "doc_view": "List",
+            "label": "Case Studies",
+            "link_to": "Enfono Case Study",
+            "type": "DocType"
+        },
+        {
+            "color": "Yellow",
+            "doc_view": "List",
+            "label": "Brands",
+            "link_to": "Enfono Brand",
+            "type": "DocType"
+        },
+        {
+            "color": "Green",
+            "doc_view": "List",
+            "label": "Careers",
+            "link_to": "Enfono Career",
+            "type": "DocType"
+        },
+        {
+            "color": "Pink",
+            "doc_view": "List",
+            "label": "Testimonials",
+            "link_to": "Enfono Testimonial",
+            "type": "DocType"
+        },
+        {
+            "color": "Blue",
+            "doc_view": "List",
+            "label": "Team Members",
+            "link_to": "Enfono Team Member",
+            "type": "DocType"
+        },
+        {
+            "color": "Grey",
+            "doc_view": "List",
+            "label": "Offices",
+            "link_to": "Enfono Office",
+            "type": "DocType"
+        },
+        {
+            "color": "Red",
+            "doc_view": "List",
+            "label": "Media Events",
+            "link_to": "Enfono Media Event",
+            "type": "DocType"
+        },
+        {
+            "color": "Cyan",
+            "doc_view": "List",
+            "label": "Client Logos",
+            "link_to": "Enfono Client Logo",
+            "type": "DocType"
+        },
+        {
+            "color": "Yellow",
+            "doc_view": "List",
+            "label": "Journey Milestones",
+            "link_to": "Enfono Journey Milestone",
+            "type": "DocType"
+        }
+    ],
+    "title": "Enfono Website"
+}

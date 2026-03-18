@@ -1,0 +1,95 @@
+{
+    "actions": [],
+    "autoname": "format:ENF-OFF-{####}",
+    "creation": "2026-03-17 00:00:00",
+    "doctype": "DocType",
+    "engine": "InnoDB",
+    "field_order": [
+        "country",
+        "flag",
+        "office_type",
+        "city",
+        "column_break_1",
+        "address",
+        "phone",
+        "office_email",
+        "color"
+    ],
+    "fields": [
+        {
+            "fieldname": "country",
+            "fieldtype": "Data",
+            "label": "Country",
+            "reqd": 1,
+            "in_list_view": 1
+        },
+        {
+            "fieldname": "flag",
+            "fieldtype": "Data",
+            "label": "Flag"
+        },
+        {
+            "fieldname": "office_type",
+            "fieldtype": "Data",
+            "label": "Office Type",
+            "in_list_view": 1
+        },
+        {
+            "fieldname": "city",
+            "fieldtype": "Data",
+            "label": "City",
+            "in_list_view": 1
+        },
+        {
+            "fieldname": "column_break_1",
+            "fieldtype": "Column Break"
+        },
+        {
+            "fieldname": "address",
+            "fieldtype": "Small Text",
+            "label": "Address"
+        },
+        {
+            "fieldname": "phone",
+            "fieldtype": "Data",
+            "label": "Phone"
+        },
+        {
+            "fieldname": "office_email",
+            "fieldtype": "Data",
+            "label": "Office Email",
+            "options": "Email"
+        },
+        {
+            "fieldname": "color",
+            "fieldtype": "Data",
+            "label": "Color"
+        }
+    ],
+    "index_web_pages_for_search": 0,
+    "links": [],
+    "modified": "2026-03-17 00:00:00",
+    "modified_by": "Administrator",
+    "module": "Enfono Website",
+    "name": "Enfono Office",
+    "naming_rule": "Expression",
+    "owner": "Administrator",
+    "permissions": [
+        {
+            "create": 1,
+            "delete": 1,
+            "email": 1,
+            "export": 1,
+            "print": 1,
+            "read": 1,
+            "report": 1,
+            "role": "System Manager",
+            "share": 1,
+            "write": 1
+        }
+    ],
+    "sort_field": "creation",
+    "sort_order": "DESC",
+    "title_field": "city",
+    "track_changes": 1
+}

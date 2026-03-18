@@ -1,0 +1,63 @@
+{
+  "actions": [],
+  "autoname": "hash",
+  "creation": "2026-03-17 00:00:00.000000",
+  "doctype": "DocType",
+  "engine": "InnoDB",
+  "field_order": [
+    "path",
+    "browser",
+    "column_break_1",
+    "source",
+    "campaign"
+  ],
+  "fields": [
+    {
+      "fieldname": "path",
+      "fieldtype": "Data",
+      "label": "Path",
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "browser",
+      "fieldtype": "Small Text",
+      "label": "Browser"
+    },
+    {
+      "fieldname": "column_break_1",
+      "fieldtype": "Column Break"
+    },
+    {
+      "fieldname": "source",
+      "fieldtype": "Data",
+      "label": "UTM Source",
+      "in_list_view": 1,
+      "in_standard_filter": 1
+    },
+    {
+      "fieldname": "campaign",
+      "fieldtype": "Data",
+      "label": "UTM Campaign",
+      "in_list_view": 1,
+      "in_standard_filter": 1
+    }
+  ],
+  "links": [],
+  "modified": "2026-03-17 00:00:00.000000",
+  "modified_by": "Administrator",
+  "module": "Fateh Website",
+  "name": "Website Analytics",
+  "naming_rule": "Random",
+  "owner": "Administrator",
+  "permissions": [
+    {
+      "read": 1,
+      "report": 1,
+      "export": 1,
+      "role": "System Manager"
+    }
+  ],
+  "sort_field": "creation",
+  "sort_order": "DESC",
+  "track_changes": 0
+}

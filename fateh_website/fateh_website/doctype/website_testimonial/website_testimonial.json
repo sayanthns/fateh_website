@@ -1,0 +1,117 @@
+{
+  "actions": [],
+  "autoname": "hash",
+  "creation": "2026-03-17 00:00:00.000000",
+  "doctype": "DocType",
+  "engine": "InnoDB",
+  "field_order": [
+    "person_name",
+    "person_name_ar",
+    "role",
+    "role_ar",
+    "column_break_1",
+    "company",
+    "company_ar",
+    "rating",
+    "display_order",
+    "section_break_quote",
+    "quote",
+    "quote_ar"
+  ],
+  "fields": [
+    {
+      "fieldname": "person_name",
+      "fieldtype": "Data",
+      "label": "Person Name",
+      "reqd": 1,
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "person_name_ar",
+      "fieldtype": "Data",
+      "label": "Person Name (Arabic)"
+    },
+    {
+      "fieldname": "role",
+      "fieldtype": "Data",
+      "label": "Role",
+      "reqd": 1,
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "role_ar",
+      "fieldtype": "Data",
+      "label": "Role (Arabic)"
+    },
+    {
+      "fieldname": "column_break_1",
+      "fieldtype": "Column Break"
+    },
+    {
+      "fieldname": "company",
+      "fieldtype": "Data",
+      "label": "Company",
+      "reqd": 1,
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "company_ar",
+      "fieldtype": "Data",
+      "label": "Company (Arabic)"
+    },
+    {
+      "fieldname": "rating",
+      "fieldtype": "Int",
+      "label": "Rating",
+      "default": "5",
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "display_order",
+      "fieldtype": "Int",
+      "label": "Display Order",
+      "default": "0"
+    },
+    {
+      "fieldname": "section_break_quote",
+      "fieldtype": "Section Break",
+      "label": "Quote"
+    },
+    {
+      "fieldname": "quote",
+      "fieldtype": "Text",
+      "label": "Quote (English)",
+      "reqd": 1
+    },
+    {
+      "fieldname": "quote_ar",
+      "fieldtype": "Text",
+      "label": "Quote (Arabic)"
+    }
+  ],
+  "links": [],
+  "modified": "2026-03-17 00:00:00.000000",
+  "modified_by": "Administrator",
+  "module": "Fateh Website",
+  "name": "Website Testimonial",
+  "naming_rule": "Random",
+  "owner": "Administrator",
+  "permissions": [
+    {
+      "create": 1,
+      "delete": 1,
+      "email": 1,
+      "export": 1,
+      "print": 1,
+      "read": 1,
+      "report": 1,
+      "role": "System Manager",
+      "share": 1,
+      "write": 1
+    }
+  ],
+  "sort_field": "display_order",
+  "sort_order": "ASC",
+  "title_field": "person_name",
+  "track_changes": 1
+}
