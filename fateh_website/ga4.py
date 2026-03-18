@@ -11,12 +11,23 @@ from datetime import date, timedelta
 GA4_API_BASE = "https://analyticsdata.googleapis.com/v1beta"
 
 
+def clean_json_string(raw):
+    """Clean up JSON from Frappe Password field (may strip braces or add NBSP)."""
+    cleaned = raw.replace('\xa0', ' ').strip()
+    if not cleaned.startswith('{'):
+        cleaned = '{' + cleaned
+    if not cleaned.endswith('}'):
+        cleaned = cleaned + '}'
+    return cleaned
+
+
 def get_credentials(service_account_json_str):
     """Create google-auth credentials from a service account JSON string."""
     from google.oauth2 import service_account
     import google.auth.transport.requests
 
-    info = json.loads(service_account_json_str)
+    cleaned = clean_json_string(service_account_json_str)
+    info = json.loads(cleaned)
     creds = service_account.Credentials.from_service_account_info(
         info, scopes=["https://www.googleapis.com/auth/analytics.readonly"]
     )
