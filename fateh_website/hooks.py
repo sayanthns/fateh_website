@@ -11,6 +11,8 @@ fixtures = [
     {"dt": "Website Pricing Plan"},
     {"dt": "Website Pricing Comparison"},
     {"dt": "Fateh Website Settings"},
+    {"dt": "Number Card", "filters": [["name", "like", "GA4%"]]},
+    {"dt": "Dashboard Chart", "filters": [["name", "like", "GA4%"]]},
 ]
 
 # Install
